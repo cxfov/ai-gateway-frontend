@@ -1,0 +1,37 @@
+{
+  "name": "ai-gateway-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "clsx": "^2.1.1",
+    "copy-to-clipboard": "^3.3.3",
+    "framer-motion": "^11.18.0",
+    "i18next": "^24.2.2",
+    "i18next-browser-languagedetector": "^8.0.4",
+    "lucide-react": "^0.469.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hot-toast": "^2.5.1",
+    "react-i18next": "^15.4.1",
+    "react-markdown": "^9.0.3",
+    "react-router-dom": "^6.28.0",
+    "recharts": "^2.15.0",
+    "zustand": "^5.0.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.2.4",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "tailwindcss": "4.2.4",
+    "typescript": "~5.7.2",
+    "vite": "^6.0.0"
+  }
+}
